@@ -1,0 +1,24 @@
+@media only screen and (min-width: 1028px){
+
+nav ul {
+    padding-left: 2%;
+}
+
+nav li {
+    width: auto;
+}
+
+nav a {
+    padding: .5rem 1rem;
+}
+    
+main figure {
+    width: 48%;
+
+}
+
+article {
+    column-count: 4;
+}
+
+}
