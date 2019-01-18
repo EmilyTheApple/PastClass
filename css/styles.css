@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * { 
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -77,4 +78,85 @@ footer {
     content:"";
     display: table;
     clear: both;
+=======
+* { 
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;    
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: pink;
+    padding: 1rem 2%;
+}
+header h1 {
+    color: #0076bb;
+    margin: 0;
+}
+header h2 {
+    color: purple;
+    margin: 0; 
+}
+nav {
+    background-color: plum;
+}
+nav ul {
+    margin: 0;
+    padding: 0; 
+    list-style-type: none;
+}
+nav ul li {
+    float: left;
+   
+}
+nav a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    color: purple
+}
+nav a:hover {
+    background-color: peachpuff;
+}
+nav li.active {
+    background-color: pink;
+}
+main {
+    background-color: rgb(253, 236, 239);
+}
+main h1 {
+    clear: both;
+    color: palevioletred;
+    margin: 2rem;
+}
+main img {
+    float: left;
+    margin-right: 2%;
+}
+main h2 {
+    color: #0076bb;
+    margin: 0;
+    padding: 0;
+}
+main ol {
+    margin: 1rem 2%;
+    color: purple;
+}
+main ol li a {
+   text-decoration: none;
+}
+footer {
+    text-align: center;
+    clear: both;
+    background-color: rgb(253, 226, 230);
+    color: palevioletred;
+}
+.clearfix:after {
+    content:"";
+    display: table;
+    clear: both;
+>>>>>>> cosmetics
 }
