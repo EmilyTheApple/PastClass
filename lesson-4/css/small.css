@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Open+Sans|Sarabun');
+* { 
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;    
+}
+header {
+    background-color: #c9e3ac;
+    margin: 0;
+    text-align: center;
+    padding: .5rem;
+}
+header img {
+    width: 150px;
+    height: auto;
+    vertical-align: middle;
+    float: left;
+}
+header h1 {
+    color: #ea9010;
+    font-family: 'Lobster', serif;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 3em;
+    padding: 0;
+    margin: 15px;
+}
+header h3 {
+    color: #90be6d;
+    font-family: 'Sarabun', serif;
+    font-style: italic;
+    font-size: 1.75em;
+    margin: 10px;
+}
+nav {
+    background-color: #90be6d;
+    margin: 0;
+}
+nav a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    margin: 0;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+nav li .active {
+    background-color: #c9e3ac;
+}
+.sec2 li {
+    list-style: none;
+}
+.clearfix:after {
+    content:"";
+    display: table;
+    clear: both;
+}
