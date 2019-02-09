@@ -17,7 +17,7 @@
                 <h1>The Weather, Man</h1>
                 <h3>What's the weather like?</h3>
             </header>
-            <nav>
+            <nav class="clearfix">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a class="active" href="index.html">Preston</a></li>
@@ -30,7 +30,7 @@
             <main>
                 <section class="sec1">
                     <h1>Preston, Idaho</h1>
-                    <img src="images/banner.jpg" alt="lightening and sunshine">
+                    <img src="images/banner.jpeg" alt="lightening and sunshine">
                     <div class="currentconditions">
                         <h4>Current Conditions</h4>
                         Partly Cloudy<br>
@@ -38,25 +38,65 @@
                         High 45&deg;
                     </div> 
                 </section>
+                <section class="secret">
+                    <h2>Five-day Forecast</h2>
+                    <table class="clearfix">
+                        <tr class="tablehead">
+                            <th>Day</th>
+                            <th>Description</th>
+                            <th>High / Low</th>
+                            <th>Wind</th>
+                        </tr>
+                        <tr class="Monday">
+                            <td>Monday</td>
+                            <td>Partly Cloudy</td>
+                            <td>36&deg; / 59&deg;</td>
+                            <td>West 8 mph</td>
+                        </tr>
+                        <tr class="Tuesday">
+                            <td>Tuesday</td>
+                            <td>Sunny</td>
+                            <td>36&deg; / 59&deg;</td>
+                            <td>West 23 mph</td>
+                        </tr>
+                        <tr class="Wednesday">
+                            <td>Wednesday</td>
+                            <td>Snowing</td>
+                            <td>36&deg; / 59&deg;</td>
+                            <td>North 8 mph</td>
+                        </tr>
+                        <tr class="Thursday">
+                            <td>Thursday</td>
+                            <td>Raining</td>
+                            <td>36&deg; / 59&deg;</td>
+                            <td>East 8 mph</td>
+                        </tr>
+                        <tr class="Friday">
+                            <td>Friday</td>
+                            <td>Cloudy</td>
+                            <td>36&deg; / 59&deg;</td>
+                            <td>None</td>
+                        </tr>
+                    </table>
+                </section>
                 <section class="sec2">
                     <h2>This Day in History</h2>
-                    <img src="images/queenmary.jpg" alt="Mary Queen of Scotts">
-                    <p>On February 8, 1587, Mary Queen of Scots was beheaded for treason. Her son, King James VI of Scotland, calmly accepted his mother’s execution, and upon Queen Elizabeth’s death in 1603 he became king of England, Scotland, and Ireland.</p>
+                    <img src="images/queenmary.jpg" alt="Mary Queen of Scots">
+                    <p>On February 8, 1587, Mary Queen of Scots was beheaded for treason. Her son, King James VI of Scotland, calmly accepted his mother’s execution, and upon Queen Elizabeth’s death in 1603 he became king of England, Scotland, and Ireland. At Fotheringhay on the evening of 7 February 1587, Mary was told that she was to be executed the next morning. She spent the last hours of her life in prayer, distributing her belongings to her household, and writing her will and a letter to the King of France.</p>
                 </section>
-                <section class="sec3">
+                <section class="clearfix" id="sec3">
                     <div id="address"><h3>Address:</h3>
                     <p>The Weather Center<br>
                     123 Main Street.<br>
                     Franklin, MI 87654</p></div>
-                    <div id="phone"><h3>Phone:</h3>
-                    <p>(801) 555-1234</p></div>
-                    <div id="email"><h3>Email:</h3>
+                    <div id="phoneandemail"><h3>Phone:</h3>
+                    <p>(801) 555-1234</p>
+                    <h3>Email:</h3>
                     <p>contact@yoururl.com</p></div>
                 </section>
             </main>
             <footer>
-                &copy; Emily Patrick 2019
-                <date></date>
+                &copy; Emily Patrick 2019 &bull; February 9, 2019
             </footer>
         </body>
     </html>

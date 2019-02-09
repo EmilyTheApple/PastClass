@@ -1,9 +1,87 @@
-@media only screen and (min-width: 420px) {
-.sec1 img {
-    max-width: 100%;
-    height: auto;
-}
-
-
-
+@media only screen and (min-width: 560px) {
+    body {
+        max-width: 900px;
+        margin: auto;
+    }
+    nav {
+        background-color: #c9e3ac;
+        text-align: center;
+    }
+    nav ul {
+        max-width: 100%;
+    }
+    nav li {
+        display: inline;
+        width: auto;
+    }
+    nav li .active {
+        background-color: #eaefbd;
+    }
+    nav a {
+        display: inline-block;
+    }
+    a:hover {
+        background-color: #ea9010;
+    }
+    .sec1 {
+        position: relative;
+    }
+    .sec2 img {
+        max-width: 50%;
+        float: right;
+    }
+    .sec3 {
+        clear: both;
+    }
+    .currentconditions {
+        visibility: visible;
+        top: 80px;
+        left: 30px;
+        padding: 2%;
+        background-color: rgba(234, 144, 16, 0.5);
+    }
+    .currentconditions h4 {
+        margin-top: 2px;
+    }
+    header img {
+        position: absolute;
+        left: 10px;
+    }
+    header h1, header h3 {
+        margin-left: 100px;
+    }
+    .secret {
+        background-color: #90be6d;
+        position: static;
+        visibility: visible;        
+    }
+    .secret h2 {
+        font-size: 1.8rem;
+        color: #567241;
+        text-align: center;
+    }
+    .secret table {
+        color: #567241;
+        font-size: 1.5rem;
+        border-collapse: collapse;
+        text-align: center;
+        margin: auto;
+    }
+    table, th, td {
+        border: 1px solid #567241;
+    }
+    #sec3 {
+        clear: both;
+    }
+    #sec3 div {
+        float: left;
+        padding: 5px 15px 5px;
+        margin-right: 20%;
+    }
+    footer {
+        clear: both;
+    }
+    #address h3 {
+        font-size: 1.3rem;
+    }
 }
