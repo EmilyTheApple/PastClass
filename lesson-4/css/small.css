@@ -1,9 +1,11 @@
-@media only screen and (max-width: 420px) {
 @import url('https://fonts.googleapis.com/css?family=Lobster|Open+Sans|Sarabun');
 * { 
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;    
+}
+body {
+    background-color: #eaefbd;
 }
 header {
     background-color: #c9e3ac;
@@ -37,18 +39,22 @@ nav {
     background-color: #90be6d;
     margin: 0;
 }
-nav a {
+nav a:link, a:visited {
     display: block;
     text-align: center;
     text-decoration: none;
     padding: .5rem 1rem;
     margin: 0;
 }
+a:hover {
+    background-color: #ea9010;
+}
 nav ul {
     margin: 0;
     padding: 0;
 }
 nav li {
+    color: #eaefbd;
     list-style: none;
     font-family: 'Open Sans', sans-serif;
     margin: 0;
@@ -56,17 +62,48 @@ nav li {
 nav li .active {
     background-color: #c9e3ac;
 }
-.sec2 li {
-    list-style: none;
+
+.sec1 h1 {
+    color: #90be6d;
+    text-align: center;
+}
+.sec1 img {
+    max-width: 100%;
+    height: auto;
+}
+.currentconditions {
+    visibility: hidden;
+    position: absolute;
+}
+.sec2 h2 {
+    color: #90be6d;
+    text-align: center;
+}
+.sec2 img {
+    max-width: 100%;
+    height: auto;
+}
+.sec2 p {
+    font-family: 'Open Sans', sans-serif;
+    color: #37371f;
+}
+.sec3 {
+    background-color: #c9e3ac;
+}
+.sec3 h3 {
+    padding: 0;
+    margin: 0;
+}
+.sec3 p {
+    padding: 0;
+    margin: 0;
 }
 footer {
     background-color: #90be6d;
     padding: 15px;
 }
-
 .clearfix:after {
     content:"";
     display: table;
     clear: both;
-}
 }
