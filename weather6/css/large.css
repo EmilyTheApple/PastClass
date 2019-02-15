@@ -9,6 +9,9 @@
     header h1 {
         margin-left: 0;
     }
+    nav ul li a {
+        padding: .25rem .4rem;
+    }
     .sec1 {
         position: relative;
     }

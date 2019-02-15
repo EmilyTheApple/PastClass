@@ -35,34 +35,51 @@ header h3 {
     font-size: 1.75em;
     margin: 10px;
 }
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #90be6d;
+}
+nav {
+    background-color: #eaefbd;
+    font-family: 'Open Sans', sans-serif;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 nav a {
     display: block;
     text-align: center;
     text-decoration: none;
     padding: .5rem .57rem;
     margin: 0;
+    border-top: 1px solid rgba(0,0,0,0.3);
+    color: #567241;
 }
-nav ul {
-    margin: 0;
-    padding: 0;
+nav ul.hide {
+    display: none;
 }
-nav li {
-    color: #eaefbd;
-    list-style: none;
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
+nav ul li a:hover {
+        background-color: #ea9010;
+        color: #fff;
 }
 nav li .active {
     background-color: #c9e3ac;
+    color: #ea9010;
 }
-
 .sec1 h1 {
     color: #90be6d;
     text-align: center;
 }
-.sec1 img {
+.banner img, .banner {
     max-width: 100%;
     height: auto;
+    margin: 0px;
+    padding: 0px;
 }
 .currentconditions {
     visibility: hidden;

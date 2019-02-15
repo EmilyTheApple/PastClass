@@ -12,13 +12,14 @@
             <title>Preston</title>
         </head>
         <body>
-            <header>
+            <header class="clearix">
                 <img src="images/sunclouds.png" alt="sun and clouds logo">
                 <h1>The Weather, Man</h1>
                 <h3>What's the weather like?</h3>
             </header>
             <nav class="clearfix">
-                <ul>
+                <button onclick="toggleMenu()">&equiv;</button>
+                <ul id="primaryNav" class="hide">
                     <li><a href="#">Home</a></li>
                     <li><a class="active" href="index.html">Preston</a></li>
                     <li><a href="#">Soda Springs</a></li>
@@ -30,7 +31,9 @@
             <main>
                 <section class="sec1">
                     <h1>Preston, Idaho</h1>
-                    <img src="images/banner.jpg" alt="lightening and sunshine">
+                    <figure class="banner">
+                        <img src="images/idahoranch.png" alt="mountains, clouds, and sunshine" sizes="(min-width: 917px) 900px, (max-width: 917px) 600px" srcset="images/idahoranch1.png 900w, images/idahoranch2.png 600w">
+                    </figure>
                     <div class="currentconditions">
                         <h4>Current Conditions</h4>
                         Partly Cloudy<br>
@@ -96,7 +99,9 @@
                 </section>
             </main>
             <footer>
-                &copy; Emily Patrick 2019 &bull; February 9, 2019
+                &copy; Emily Patrick 2019 &bull; <span id="currentdate"></span>
             </footer>
+            <script type="text/javascript" src="scripts/currentdate.js"></script>
+            <script type="text/javascript" src="scripts/hamburger.js"></script>
         </body>
     </html>

@@ -1,4 +1,4 @@
-@media only screen and (min-width: 560px) {
+@media only screen and (min-width: 580px) {
     body {
         max-width: 900px;
         margin: auto;
@@ -7,8 +7,14 @@
         background-color: #c9e3ac;
         text-align: center;
     }
+    nav button {
+        display: none;
+    }
     nav ul {
         max-width: 100%;
+    }
+    nav ul.hide {
+        display: block;
     }
     nav li {
         display: inline;
@@ -19,9 +25,7 @@
     }
     nav a {
         display: inline-block;
-    }
-    a:hover {
-        background-color: #ea9010;
+        border: none;
     }
     .sec1 {
         position: relative;
