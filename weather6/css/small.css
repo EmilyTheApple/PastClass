@@ -76,7 +76,7 @@ nav li .active {
     text-align: center;
 }
 .banner img, .banner {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     margin: 0px;
     padding: 0px;
