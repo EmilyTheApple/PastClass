@@ -89,4 +89,8 @@
     #address h3 {
         font-size: 1.3rem;
     }
+    div.gallery figure {
+        flex-basis: 46%;
+
+    }
 }

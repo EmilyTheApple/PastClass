@@ -75,6 +75,17 @@ nav li .active {
     color: #90be6d;
     text-align: center;
 }
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+div.gallery figure {
+    flex-basis: 96%;
+    margin: 1em 2%;
+}
+div.gallery figure img {
+    width: 100%;
+}
 .banner img, .banner {
     width: 100%;
     height: auto;
