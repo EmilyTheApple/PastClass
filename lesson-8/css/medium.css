@@ -91,6 +91,8 @@
     }
     div.gallery figure {
         flex-basis: 46%;
-
+    }
+    input, textarea, label, select {
+        width: 75%;
     }
 }

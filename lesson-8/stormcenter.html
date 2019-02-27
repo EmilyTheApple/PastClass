@@ -33,19 +33,19 @@
                     <fieldset>
                         <label for="fullname">Full Name:</label><br>
                         <input type="text" id="fullname" name="fullname" required minlength="5" pattern="[A-Za-z].{5,}" autofocus><br>
-                        
+                        <br>
                         <label for="email">Email</label><br>
                         <input type="email" id="email" name="email" placeholder="email@example.com"><br>
-                        
+                        <br>
                         <label for="phone">Phone Number</label><br>
                         <input type="tel" id="phone" name="phone" required><br>
-                        
+                        <br>
                         <label for="zip">Zip Code</label><br>
                         <input type="number" id="zip" name="zip" required><br>
-                        
+                        <br>
                         <label for="date">Storm Date</label><br>
                         <input type="date" id="date" name="date" size="20"><br>
-                        
+                        <br>
                         <label for="stormtypes">Storm Type</label><br>
                         <input list="stormtypes" name="stormtypes">
                         <datalist id="stormtypes">
@@ -56,10 +56,10 @@
                             <option>Tornado</option>
                             <option>Snow Storm</option>
                         </datalist><br>
-                        
+                        <br>
                         <label for="range">Storm Severity: <span id="rangevalue">5</span></label><br>
                         <input type="range" id="range" name="severity" value="5" step="1" min="1" max="10" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><br>
-
+                        <br>
                         <label for="region">Storm Region</label><br>
                         <select name="region" id="region">
                             <option value="Select Region" selected="true" disabled="disabled">Select Region</option>
@@ -67,17 +67,18 @@
                             <option value="Soda Springs">Soda Springs</option>
                             <option value="Fish Haven">Fish Haven</option>
                         </select><br>
-
+                        <br>
                         <label for="danger">User In Danger</label><br>
                             <input type="radio" name="danger" id="danger" value="yes">Yes<br>
                             <input type="radio" name="danger" value="maybe">Maybe<br>
                             <input type="radio" name="danger" value="no">no<br>
-
-                        <label for="add">Additional Information</label><br>
+                            <br>
+                        <label id="additional" for="add">Additional Information</label><br>
                         <textarea id="add" rows="5" cols="22"></textarea><br>
+                        <button type="submit" form="form1"value="Submit">Submit</button>
                     </fieldset>
                 </form>
-                <button type="submit" form="form1"value="Submit">Submit</button>
+                
             </main>
             <footer class="clearfix">
                 &copy; Emily Patrick 2019 &bull; <span id="currentdate"></span>

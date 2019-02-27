@@ -33,4 +33,15 @@
     div.gallery figure:hover {
         box-shadow: 8px 8px rgba(0,0,0,0.3);
     }
+    input, textarea, label, select {
+        width: 50%;
+        height: auto;
+    }
+    button {
+        width: auto;
+        height: auto;
+    }
+    input[type=radio] {
+        height: auto;
+    }
 }
