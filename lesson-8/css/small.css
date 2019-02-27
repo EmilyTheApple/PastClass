@@ -157,6 +157,11 @@ button {
     height: 45px;
     color: #567241;
 }
+.thankyou {
+    font-family: 'Open Sans', sans-serif;
+    color: #567241;
+    font-size: 2rem;
+}
 .clearfix:after {
     content:"";
     display: table;
