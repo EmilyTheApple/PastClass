@@ -29,24 +29,26 @@
                 </ul>
             </nav>
             <main>
-                <form id="form1">
+                <h1>Storm Report</h1>
+                <form method="get" action="thankyou.html">
                     <fieldset>
-                        <label for="fullname">Full Name:</label><br>
-                        <input type="text" id="fullname" name="fullname" required minlength="5" pattern="[A-Za-z].{5,}" autofocus><br>
+                        <legend>Storm Information</legend>
+                        <label><div>Full Name*</div><br>
+                        <input type="text" name="fullname" required minlength="5" pattern="[A-Za-z].{5,}" autofocus></label><br>
                         <br>
-                        <label for="email">Email</label><br>
-                        <input type="email" id="email" name="email" placeholder="email@example.com"><br>
+                        <label><div>Email</div><br>
+                        <input type="email"name="email" placeholder="email@example.com"></label><br>
                         <br>
-                        <label for="phone">Phone Number</label><br>
-                        <input type="tel" id="phone" name="phone" required><br>
+                        <label><div>Phone Number</div><br>
+                        <input type="tel" name="phone" required placeholder="1112223333"></label><br>
                         <br>
-                        <label for="zip">Zip Code</label><br>
-                        <input type="number" id="zip" name="zip" required><br>
+                        <label><div>Zip Code</div><br>
+                        <input type="number" id="zip" name="zip" required></label><br>
                         <br>
-                        <label for="date">Storm Date</label><br>
-                        <input type="date" id="date" name="date" size="20"><br>
+                        <label><div>Storm Date</div><br>
+                        <input type="date" id="date" name="date" size="20"></label><br>
                         <br>
-                        <label for="stormtypes">Storm Type</label><br>
+                        <label><div>Storm Type</div><br>
                         <input list="stormtypes" name="stormtypes">
                         <datalist id="stormtypes">
                             <option>Flash Flood</option>
@@ -55,28 +57,28 @@
                             <option>Thunderstorm</option>
                             <option>Tornado</option>
                             <option>Snow Storm</option>
-                        </datalist><br>
+                        </datalist></label><br>
                         <br>
-                        <label for="range">Storm Severity: <span id="rangevalue">5</span></label><br>
-                        <input type="range" id="range" name="severity" value="5" step="1" min="1" max="10" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><br>
+                        <label><div>Storm Severity - <span id="rangevalue">5</span></div><br>
+                        <input type="range" id="range" name="severity" value="5" step="1" min="1" max="10" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"></label><br>
                         <br>
-                        <label for="region">Storm Region</label><br>
+                        <label><div>Storm Region</div><br>
                         <select name="region" id="region">
-                            <option value="Select Region" selected="true" disabled="disabled">Select Region</option>
+                            <option selected="true" disabled="disabled">Select Region</option>
                             <option value="Preston">Preston</option>
                             <option value="Soda Springs">Soda Springs</option>
                             <option value="Fish Haven">Fish Haven</option>
-                        </select><br>
+                        </select></label><br>
                         <br>
-                        <label for="danger">User In Danger</label><br>
-                            <input type="radio" name="danger" id="danger" value="yes">Yes<br>
-                            <input type="radio" name="danger" value="maybe">Maybe<br>
-                            <input type="radio" name="danger" value="no">no<br>
+                        <label><div>User In Danger</div><br>
+                            <input type="radio" name="danger">Yes<br>
+                            <input type="radio" name="danger">Maybe<br>
+                            <input type="radio" name="danger">No</label><br>
                             <br>
-                        <label id="additional" for="add">Additional Information</label><br>
-                        <textarea id="add" rows="5" cols="22"></textarea><br>
-                        <button type="submit" id="submit" value="Submit" onclick="location.href='thankyou.html'">Submit</button>
+                        <label><div>Additional Information</div><br>
+                        <textarea id="add" rows="5" cols="22"></textarea></label><br>
                     </fieldset>
+                    <button type="submit">Report</button>
                 </form>
             </main>
             <footer class="clearfix">

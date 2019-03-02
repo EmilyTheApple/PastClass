@@ -2,13 +2,6 @@
     header {
         padding-bottom: 20px;
     }
-    header img {
-        position: static;
-        margin: 0;
-    }
-    header h1 {
-        margin-left: 0;
-    }
     nav ul li a {
         padding: .25rem .4rem;
     }
@@ -35,13 +28,14 @@
     }
     input, textarea, label, select {
         width: 50%;
-        height: auto;
+        height: 35px;
     }
     button {
-        width: auto;
-        height: auto;
+        width: 16%;
+        height: 40px;
     }
     input[type=radio] {
-        height: auto;
+        height: 20px;
+        width: 50px;
     }
 }

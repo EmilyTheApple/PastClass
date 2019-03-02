@@ -47,13 +47,6 @@
     .currentconditions h4 {
         margin-top: 2px;
     }
-    header img {
-        position: absolute;
-        left: 10px;
-    }
-    header h1, header h3 {
-        margin-left: 100px;
-    }
     .secret {
         background-color: #90be6d;
         position: static;
@@ -94,5 +87,11 @@
     }
     input, textarea, label, select {
         width: 75%;
+    }
+    button {
+        width: 69%;
+    }
+    main h1 {
+        text-align: left;
     }
 }

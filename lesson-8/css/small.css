@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Open+Sans|Sarabun');
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
 * { 
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -9,31 +13,21 @@ body {
 }
 header {
     background-color: #c9e3ac;
-    margin: 0;
-    text-align: center;
-    padding: .5rem;
-}
-header img {
-    width: 150px;
-    height: auto;
-    vertical-align: middle;
-    float: left;
+    padding: .5rem 2%;
+    display: grid;
+    grid-column: 140px auto;
 }
 header h1 {
     color: #ea9010;
     font-family: 'Lobster', serif;
-    display: inline-block;
     vertical-align: middle;
-    font-size: 3em;
-    padding: 0;
-    margin: 15px;
+    font-size: 2em;
 }
 header h3 {
     color: #90be6d;
     font-family: 'Sarabun', serif;
     font-style: italic;
-    font-size: 1.75em;
-    margin: 10px;
+    font-size: 1em;
 }
 nav button {
     margin: .2rem 2%;
@@ -133,7 +127,6 @@ footer {
 input, textarea, label, select {
     width: 100%;
     height: 45px;
-    margin-bottom: 2%;
     font-size: 1.25rem;
 }
 input[type=radio] {
@@ -145,6 +138,15 @@ form {
     font-family: 'Open Sans', sans-serif;
     color: #567241; 
 }
+form fieldset {
+    margin: 2%;
+    border: 1px solid #567241;
+    padding: .5rem 2%;
+}
+form legend {
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
 input, option {
     color: #ea9010;
 }
@@ -152,8 +154,8 @@ textarea {
     height: 200px;
 }
 button {
-    margin-top: 2%;
-    width: 90px;
+    margin: 0 0 2rem 4%;
+    width: 92%;
     height: 45px;
     color: #567241;
 }
@@ -162,6 +164,11 @@ button {
     color: #567241;
     font-size: 2rem;
 }
+main h1 {
+    text-align: center;
+    color: #90be6d;
+}
+
 .clearfix:after {
     content:"";
     display: table;
