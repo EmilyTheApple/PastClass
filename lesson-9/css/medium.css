@@ -3,6 +3,9 @@
         max-width: 900px;
         margin: auto;
     }
+    header {
+        grid-template-columns: 135px auto;
+    }
     nav {
         background-color: #c9e3ac;
         text-align: center;

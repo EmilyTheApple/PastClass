@@ -35,4 +35,11 @@
         height: 20px;
         width: 50px;
     }
+    .selectbox {
+        height: 40px;
+        padding: 0px;
+    }
+    textarea {
+        height: 100px;
+    }
 }
