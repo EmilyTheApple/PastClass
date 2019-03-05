@@ -1,0 +1,47 @@
+<!doctype html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta name="description" content="Preston Home Page">
+            <meta name="author" content="Emily Patrick">
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+            <link href="css/normalize.css" rel="stylesheet">
+            <link href="css/small.css" rel="stylesheet">
+            <link href="css/medium.css" rel="stylesheet">
+            <link href="css/large.css" rel="stylesheet">
+            <title>Gallery</title>
+        </head>
+        <body>
+            <header class="clearfix">
+                <img src="images/sunclouds.png" alt="sun and clouds logo">
+                <h1>The Weather, Man</h1>
+                <h3>What's the weather like?</h3>
+            </header>
+            <nav class="clearfix">
+                <button onclick="toggleMenu()">&equiv;</button>
+                <ul id="primaryNav" class="hide">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="index.html">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a href="stormcenter.html">Storm Center</a></li>
+                    <li><a class="active" href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+            <main>
+                <div class="gallery">
+                    <figure><img src="images/1tornado.jpg" alt="tornado"><figcaption>Deadly Tornado</figcaption></figure>
+                    <figure><img src="images/2clouds.png" alt="clouds"><figcaption>Fluffy Clouds</figcaption></figure>
+                    <figure><img src="images/3rain.jpg" alt="rain"><figcaption>Sinister Rain Storm</figcaption></figure>
+                    <figure><img src="images/4rainbow.png" alt="rainbow"><figcaption>Rainbow in the Mountains</figcaption></figure>
+                    <figure><img src="images/5snow.png" alt="snow"><figcaption>Snowy Valley</figcaption></figure>
+                    <figure><img src="images/6lightning.jpg" alt="lightning"><figcaption>Lightning and Tornado</figcaption></figure>
+                </div>
+            </main>
+            <footer>
+                &copy; Emily Patrick 2019 &bull; <span id="currentdate"></span>
+            </footer>
+            <script type="text/javascript" src="scripts/currentdate.js"></script>
+            <script type="text/javascript" src="scripts/hamburger.js"></script>
+        </body>
+    </html>

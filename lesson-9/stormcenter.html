@@ -1,0 +1,92 @@
+<!doctype html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta name="description" content="Storm Center">
+            <meta name="author" content="Emily Patrick">
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+            <link href="css/normalize.css" rel="stylesheet">
+            <link href="css/small.css" rel="stylesheet">
+            <link href="css/medium.css" rel="stylesheet">
+            <link href="css/large.css" rel="stylesheet">
+            <title>Storm Center</title>
+        </head>
+        <body>
+            <header class="clearix">
+                <img src="images/sunclouds.png" alt="sun and clouds logo">
+                <h1>The Weather, Man</h1>
+                <h3>What's the weather like?</h3>
+            </header>
+            <nav class="clearfix">
+                <button onclick="toggleMenu()">&equiv;</button>
+                <ul id="primaryNav" class="hide">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="index.html">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a class="active" href="stormcenter.html">Storm Center</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+            <main>
+                <h1>Storm Report</h1>
+                <form method="get" action="thankyou.html">
+                    <fieldset>
+                        <legend>Storm Information</legend>
+                        <label><div>Full Name*</div><br>
+                        <input type="text" name="fullname" required minlength="5" pattern="[A-Za-z].{5,}" autofocus></label><br>
+                        <br>
+                        <label><div>Email</div><br>
+                        <input type="email"name="email" placeholder="email@example.com"></label><br>
+                        <br>
+                        <label><div>Phone Number</div><br>
+                        <input type="tel" name="phone" required placeholder="1112223333"></label><br>
+                        <br>
+                        <label><div>Zip Code</div><br>
+                        <input type="number" id="zip" name="zip" required></label><br>
+                        <br>
+                        <label><div>Storm Date</div><br>
+                        <input type="date" id="date" name="date" size="20"></label><br>
+                        <br>
+                        <label><div>Storm Type</div><br>
+                        <input list="stormtypes" name="stormtypes">
+                        <datalist id="stormtypes">
+                            <option>Flash Flood</option>
+                            <option>Hail</option>
+                            <option>Hurricane</option>
+                            <option>Thunderstorm</option>
+                            <option>Tornado</option>
+                            <option>Snow Storm</option>
+                        </datalist></label><br>
+                        <br>
+                        <label><div>Storm Severity - <span id="rangevalue">5</span></div><br>
+                        <input type="range" id="range" name="severity" value="5" step="1" min="1" max="10" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"></label><br>
+                        <br>
+                        <label><div>Storm Region</div><br>
+                        <select name="region" id="region">
+                            <option selected="true" disabled="disabled">Select Region</option>
+                            <option value="Preston">Preston</option>
+                            <option value="Soda Springs">Soda Springs</option>
+                            <option value="Fish Haven">Fish Haven</option>
+                        </select></label><br>
+                        <br>
+                        <label><div>User In Danger</div><br>
+                            <input type="radio" name="danger">Yes<br>
+                            <input type="radio" name="danger">Maybe<br>
+                            <input type="radio" name="danger">No</label><br>
+                            <br>
+                        <label><div>Additional Information</div><br>
+                        <textarea id="add" rows="5" cols="22"></textarea></label><br>
+                    </fieldset>
+                    <button type="submit">Report</button>
+                </form>
+            </main>
+            <footer class="clearfix">
+                &copy; Emily Patrick 2019 &bull; <span id="currentdate"></span>
+            </footer>
+            <script src="scripts/rating.js"></script>
+            <script src="scripts/currentdate.js"></script>
+            <script src="scripts/hamburger.js"></script>
+            <script src="scripts/windchill.js"></script>
+        </body>
+    </html>
