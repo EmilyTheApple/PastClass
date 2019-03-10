@@ -9,7 +9,7 @@
             <link href="css/small.css" rel="stylesheet">
             <link href="css/medium.css" rel="stylesheet">
             <link href="css/large.css" rel="stylesheet">
-            <title>Preston</title>
+            <title>Home</title>
         </head>
         <body>
             <header class="clearfix">
@@ -31,13 +31,38 @@
                 </ul>
             </nav>
             <main>
-                
+                    <section class="sec1">
+                        <figure class="banner">
+                            <img src="images/idahoranch.png" alt="mountains, clouds, and sunshine" sizes="100vw" srcset="images/idahoranch3.png 300w, images/idahoranch2.png 600w, images/idahoranch1.png 900w">
+                        </figure>
+                    </section>
+                    <section id="towndata">
+                        <h1>Town Data</h1>
+                        <div>
+                            <h1><span id="preston"></span></h1>
+                            <p><span id="pmotto"></span></p>
+                            <p>Year Founded: <span id="pyearFound"></span></p>
+                            <p>Population: <span id="pcurrentPop"></span></p>
+                            <p>Annual Rain Fall:<span id="paverageRain"></span></p>
+                        </div>
+                    </section>
+                <section class="clearfix" id="sec3">
+                    <div id="address"><h3>Address:</h3>
+                    <p>The Weather Center<br>
+                    123 Main Street.<br>
+                    Franklin, MI 87654</p></div>
+                    <div id="phoneandemail"><h3>Phone:</h3>
+                    <p>(801) 555-1234</p>
+                    <h3>Email:</h3>
+                    <p>contact@yoururl.com</p></div>
+                </section>
             </main>
             <footer>
-                &copy; Emily Patrick 2019 &bull; <span id="currentdate"></span>
+                &copy; Emily Patrick 2019 &bull; <span id="currentdate">date</span>
             </footer>
             <script type="text/javascript" src="scripts/currentdate.js"></script>
             <script type="text/javascript" src="scripts/hamburger.js"></script>
             <script type="text/javascript" src="scripts/windchill.js"></script>
+            <script type="text/javascript" src="scripts/weatherapi.js"></script>
         </body>
     </html>
