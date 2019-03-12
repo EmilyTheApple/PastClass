@@ -30,6 +30,5 @@ function getdateformatted() {
   /*This section gets the full year and puts it under the variable yr*/
   var yr = d.getFullYear();
   /*This section sticks them all in the right spots with the right spaces and a comma*/
-  document.getElementById("currentdate").innerHTML = n + ", " + day " " + mon + " " + yr;
+  document.getElementById("currdate").innerHTML = n + ", " + day + mon + " " + yr;
   }
-  getdateformatted();
