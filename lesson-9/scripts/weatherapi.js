@@ -1,5 +1,5 @@
 var weatherObject = new XMLHttpRequest();
-weatherObject.open('GET','F:/Emily/Winter%202019/EmilyTheApple.github.io/lesson-9/JSON/towndata.JSON',true)
+weatherObject.open('GET','/EmilyTheApple.github.io/lesson-9/JSON/towndata.JSON',true)
 
 weatherObject.send();
 
