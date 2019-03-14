@@ -181,7 +181,16 @@ main h1 {
     flex-wrap: wrap;
     justify-content: center;
 }
+#towns {
+    margin: 2%;
+    border: 2px gray solid;
+    width: 96%;
+    background-color: white;
+    padding: 2px;
+}
+.smotto {
 
+}
 .clearfix:after {
     content:"";
     display: table;
