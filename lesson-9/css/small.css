@@ -180,7 +180,6 @@ main h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 96%;
 }
 
 .clearfix:after {
