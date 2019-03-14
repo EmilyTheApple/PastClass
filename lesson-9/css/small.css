@@ -176,11 +176,12 @@ main h1 {
     height: 50px;
     padding: 10px;
 }
-#towns {
+#towndata {
     display: flex;
     justify-content: center;
     width: 96%;
 }
+
 .clearfix:after {
     content:"";
     display: table;
