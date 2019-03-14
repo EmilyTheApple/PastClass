@@ -178,6 +178,8 @@ main h1 {
 }
 #towns {
     display: flex;
+    justify-content: center;
+    width: 96%;
 }
 .clearfix:after {
     content:"";
