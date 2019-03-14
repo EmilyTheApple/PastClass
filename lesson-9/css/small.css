@@ -178,6 +178,7 @@ main h1 {
 }
 #towndata {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     width: 96%;
 }
