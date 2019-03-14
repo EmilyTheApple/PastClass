@@ -188,6 +188,8 @@ main h1 {
     background-color: white;
     padding: 2%;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #37371f;
 }
 #towns img {
     width: 100%;
