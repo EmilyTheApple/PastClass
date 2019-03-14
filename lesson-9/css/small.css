@@ -176,6 +176,9 @@ main h1 {
     height: 50px;
     padding: 10px;
 }
+#towns {
+    display: flex;
+}
 .clearfix:after {
     content:"";
     display: table;
