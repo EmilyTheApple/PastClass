@@ -42,4 +42,7 @@
     textarea {
         height: 100px;
     }
+    #towns {
+        width: 29%;
+    }
 }

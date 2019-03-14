@@ -176,6 +176,9 @@ main h1 {
     height: 50px;
     padding: 10px;
 }
+main h1 {
+    text-align: center;
+}
 #towndata {
     display: flex;
     flex-wrap: wrap;
