@@ -186,7 +186,8 @@ main h1 {
     border: 2px gray solid;
     width: 96%;
     background-color: white;
-    padding: 2px;
+    padding: 2%;
+    text-align: center;
 }
 .smotto {
 
