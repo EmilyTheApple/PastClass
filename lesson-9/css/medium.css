@@ -100,4 +100,7 @@
     #towns {
         width: 46%;
     }
+    #towndata h1 {
+        clear: both;
+    }
 }
