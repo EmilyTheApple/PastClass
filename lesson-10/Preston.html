@@ -38,10 +38,10 @@
                     </figure>
                     <div class="currentconditions">
                         <h4>Current Conditions</h4>
-                        <span>Partly Cloudy</span><br>
-                        Low <span>36</span>&deg;<br>
-                        High <span>45</span>&deg;<br>
-                        Wind Speed <span>8</span>mph<br>
+                        <span id="currcon">Partly Cloudy</span><br>
+                        Low <span id="currlow">36</span>&deg;<br>
+                        High <span id="currhi">45</span>&deg;<br>
+                        Wind Speed <span id="currws">8</span>mph<br>
                         Windchill <p id="windchill"></p>
                     </div> 
                 </section>
@@ -55,34 +55,34 @@
                             <th>Wind</th>
                         </tr>
                         <tr class="Monday">
-                            <td>Monday</td>
-                            <td>Partly Cloudy</td>
-                            <td>36&deg; / 59&deg;</td>
-                            <td>West 8 mph</td>
+                            <td><span id="des1"></span></td>
+                            <td><span id="high1"></span></td>
+                            <td><span id="low1"></span>&deg; / <span></span>&deg;</td>
+                            <td><span id="ws1"></span>mph</td>
                         </tr>
                         <tr class="Tuesday">
-                            <td>Tuesday</td>
-                            <td>Sunny</td>
-                            <td>36&deg; / 59&deg;</td>
-                            <td>West 23 mph</td>
+                            <td><span id="des2"></span></td>
+                            <td><span id="high2"></span></td>
+                            <td><span id="low2"></span>&deg; / <span></span>&deg;</td>
+                            <td><span id="ws2"></span>mph</td>
                         </tr>
                         <tr class="Wednesday">
-                            <td>Wednesday</td>
-                            <td>Snowing</td>
-                            <td>36&deg; / 59&deg;</td>
-                            <td>North 8 mph</td>
+                            <td><span id="des3"></span></td>
+                            <td><span id="high3"></span></td>
+                            <td><span id="low3"></span>&deg; / <span></span>&deg;</td>
+                            <td><span id="ws3"></span>mph</td>
                         </tr>
                         <tr class="Thursday">
-                            <td>Thursday</td>
-                            <td>Raining</td>
-                            <td>36&deg; / 59&deg;</td>
-                            <td>East 8 mph</td>
+                            <td><span id="des4"></span></td>
+                            <td><span id="high4"></span></td>
+                            <td><span id="low4"></span>&deg; / <span></span>&deg;</td>
+                            <td><span id="ws4"></span>mph</td>
                         </tr>
                         <tr class="Friday">
-                            <td>Friday</td>
-                            <td>Cloudy</td>
-                            <td>36&deg; / 59&deg;</td>
-                            <td>None</td>
+                            <td><span id="des5"></span></td>
+                            <td><span id="high5"></span></td>
+                            <td><span id="low5"></span>&deg; / <span></span>&deg;</td>
+                            <td><span id="ws5"></span>mph</td>
                         </tr>
                     </table>
                 </section>
@@ -109,5 +109,6 @@
             <script type="text/javascript" src="scripts/hamburger.js"></script>
             <script type="text/javascript" src="scripts/windchill.js"></script>
             <script type="text/javascript" src="scripts/prestonweather.js"></script>
+            <script type="text/javascript" src="scripts/fiveday.js"></script>
         </body>
     </html>
