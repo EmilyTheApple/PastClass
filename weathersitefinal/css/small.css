@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Open+Sans|Sarabun');
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+* { 
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;    
+}
+body {
+    background-color: #eaefbd;
+    padding: 2%;
+}
+header {
+    background-color: #c9e3ac;
+    padding: .5rem 2%;
+    display: grid;
+    grid-template-columns: 135px auto;
+    justify-content: start;
+}
+header h1 {
+    color: #ea9010;
+    font-family: 'Lobster', serif;
+    vertical-align: middle;
+    font-size: 2em;
+}
+header h3 {
+    color: #90be6d;
+    font-family: 'Sarabun', serif;
+    font-style: italic;
+    font-size: 1em;
+}
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #90be6d;
+}
+nav {
+    background-color: #eaefbd;
+    font-family: 'Open Sans', sans-serif;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: .5rem .57rem;
+    margin: 0;
+    border-top: 1px solid rgba(0,0,0,0.3);
+    color: #567241;
+}
+nav ul.hide {
+    display: none;
+}
+nav ul li a:hover {
+        background-color: #ea9010;
+        color: #fff;
+}
+nav li .active {
+    background-color: #c9e3ac;
+    color: #ea9010;
+}
+.sec1 h1 {
+    color: #90be6d;
+    text-align: center;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+div.gallery figure {
+    flex-basis: 96%;
+    margin: 1em 2%;
+}
+div.gallery figure img {
+    width: 100%;
+}
+.banner img, .banner {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+.currentconditions {
+    visibility: hidden;
+    position: absolute;
+}
+.secret {
+    visibility: hidden;
+    position: absolute;
+}
+.sec2 h2 {
+    color: #90be6d;
+    text-align: center;
+}
+.sec2 img {
+    max-width: 100%;
+    height: auto;
+}
+.sec2 p {
+    font-family: 'Open Sans', sans-serif;
+    color: #37371f;
+}
+#sec3 {
+    background-color: #c9e3ac;
+}
+#sec3 h3 {
+    color: #567241;
+    padding: 0;
+    margin: 0;
+}
+#sec3 p {
+    color: #567241;
+    padding: 0;
+    margin: 0;
+}
+footer {
+    background-color: #90be6d;
+    padding: 15px;
+    text-align: center;
+}
+input[type=radio] {
+    width: 20px;
+    height: 20px;
+    font-size: 1.25rem;
+    margin: 0 2% 2% 0;
+}
+input, textarea, label, select {
+    width: 100%;
+    height: 45px;
+    font-size: 1.25rem;
+    margin: 10px 0%;
+    padding: 10px 0%;
+}
+form {
+    font-family: 'Open Sans', sans-serif;
+    color: #567241; 
+}
+form fieldset {
+    margin: 2%;
+    border: 1px solid #567241;
+    padding: 2%;
+}
+form legend {
+    margin: 0 1rem;
+    padding: 0.5rem;
+}
+input, option {
+    color: #ea9010;
+}
+textarea {
+    height: 200px;
+}
+button {
+    margin: 0 0 2rem 4%;
+    width: 25%;
+    height: 45px;
+    color: #567241;
+}
+.thankyou {
+    font-family: 'Open Sans', sans-serif;
+    color: #567241;
+    font-size: 2rem;
+}
+main h1 {
+    text-align: center;
+    color: #90be6d;
+}
+.selectbox {
+    height: 50px;
+    padding: 10px;
+}
+main h1 {
+    text-align: center;
+}
+#towndata {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#towns {
+    margin: 2%;
+    border: 2px grey solid;
+    width: 96%;
+    background-color: rgba(255,255,255,0.5);
+    padding: 2%;
+    text-align: center;
+}
+#towns img {
+    width: 100%;
+}
+#towndata #towns p {
+    font-family: 'Open Sans', sans-serif;
+    color: #37371f;
+}
+.clearfix:after {
+    content:"";
+    display: table;
+    clear: both;
+}
