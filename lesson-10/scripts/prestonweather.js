@@ -6,35 +6,4 @@ prestonWeather.send();
 prestonWeather.onload = function() {
     var weatherInfo = JSON.parse(prestonWeather.responseText);
     console.log(weatherInfo);
-
-    document.getElementById('').innerHTML = weatherInfo.;
-    document.getElementById('').innerHTML = weatherInfo.;
-    document.getElementById('').innerHTML = weatherInfo.;
-    document.getElementById('').innerHTML = weatherInfo.;
-    document.getElementById('').innerHTML = weatherInfo.;
-    document.getElementById('').innerHTML = weatherInfo.;
-    document.getElementById('').innerHTML = weatherInfo.;
-    document.getElementById('').innerHTML = weatherInfo.;
-    document.getElementById('').innerHTML = weatherInfo.;
-    document.getElementById('').innerHTML = weatherInfo.;
-    document.getElementById('').innerHTML = weatherInfo.;
-    document.getElementById('').innerHTML = weatherInfo.;
-    document.getElementById('').innerHTML = weatherInfo.;
-    document.getElementById('').innerHTML = weatherInfo.;
-    document.getElementById('').innerHTML = weatherInfo.;
-    document.getElementById('').innerHTML = weatherInfo.;
-    document.getElementById('').innerHTML = weatherInfo.;
-    document.getElementById('').innerHTML = weatherInfo.;
-    document.getElementById('').innerHTML = weatherInfo.;
-    document.getElementById('').innerHTML = weatherInfo.;
-    document.getElementById('').innerHTML = weatherInfo.;
-    document.getElementById('').innerHTML = weatherInfo.;
-    document.getElementById('').innerHTML = weatherInfo.;
-    document.getElementById('').innerHTML = weatherInfo.;
-    document.getElementById('').innerHTML = weatherInfo.;
-    document.getElementById('').innerHTML = weatherInfo.;
-    document.getElementById('').innerHTML = weatherInfo.;
-    document.getElementById('').innerHTML = weatherInfo.;
-    document.getElementById('').innerHTML = weatherInfo.;
-    document.getElementById('').innerHTML = weatherInfo.;
 }
