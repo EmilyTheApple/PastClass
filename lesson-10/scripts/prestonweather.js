@@ -1,5 +1,5 @@
 var prestonWeather = new XMLHttpRequest();
-prestonWeather.open('GET', 'http://api.openweathermap.org/data/2.5/weather?id=5604473&appid=6206458334476c0ae3b4a83d9e2c25f8&units=imperial', true);
+prestonWeather.open('GET', '//api.openweathermap.org/data/2.5/weather?id=5604473&appid=6206458334476c0ae3b4a83d9e2c25f8&units=imperial', true);
 
 prestonWeather.send();
 
