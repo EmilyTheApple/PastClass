@@ -92,6 +92,9 @@ div.gallery figure img {
     visibility: hidden;
     position: absolute;
 }
+.currentconditions h4 {
+    font-size: 1.25rem;
+}
 .secret {
     visibility: hidden;
     position: absolute;
