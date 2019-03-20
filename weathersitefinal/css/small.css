@@ -183,7 +183,7 @@ main h1 {
 #towndata {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 #towns {
     margin: 2%;
