@@ -7,8 +7,8 @@ prestonWeather.onload = function() {
     var weatherInfo = JSON.parse(prestonWeather.responseText);
     console.log(weatherInfo);
     
-    document.getElementById('currcon').innerHTML = weatherInfo.weather["0"].main;
-    document.getElementById('currlow').innerHTML = weatherInfo.main.temp_min;
-    document.getElementById('currhi').innerHTML = weatherInfo.main.temp_max;
-    document.getElementById('currws').innerHTML = weatherInfo.wind.speed;
+    document.getElementById('currcon').innerHTML = weatherInfo.list["0"].weather["0"].main;
+    document.getElementById('currlow').innerHTML = weatherInfo.list["0"].main.temp_min;
+    document.getElementById('currhi').innerHTML = weatherInfo.list["0"].main.temp_max;
+    document.getElementById('currws').innerHTML = weatherInfo.list["0"].wind.speed;
 }
