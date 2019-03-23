@@ -103,4 +103,13 @@
     #towns h1 {
         text-align: center;
     }
+    main form fieldset label {
+        margin-right: 30%;
+    }
+    .uid {
+        margin-bottom: 10px;
+    }
+    #radio {
+        margin-bottom: 30px;
+    }
 }

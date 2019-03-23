@@ -204,6 +204,10 @@ main h1 {
     font-family: 'Open Sans', sans-serif;
     color: #37371f;
 }
+#storm #radio {
+    display: block;
+}
+
 .clearfix:after {
     content:"";
     display: table;
