@@ -1,0 +1,38 @@
+@media only screen and (min-width: 540px) {
+    body {
+        max-width: 900px;
+        margin: auto;
+    }
+    header {
+        margin: 0;
+    }
+    nav {
+        text-align: center;
+        margin: 0;
+    }
+    nav button {
+        display: none;
+    }
+    nav ul {
+        max-width: 100%;
+        margin: 0;
+    }
+    nav ul.hide {
+        display: block;
+    }
+    nav li {
+        display: inline;
+        width: auto;
+    }
+    nav a {
+        display: inline-block;
+        border: none;
+    }
+    .templeinfo p, .contactinfo, footer {
+        font-size: 1.125rem;
+    }
+    header img {
+        margin-left: 30px;
+        margin-top: 25px;
+    }
+}

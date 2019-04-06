@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Source+Sans+Pro|ZCOOL+XiaoWei'); 
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+* { 
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;    
+}
+body {
+    background-color: #c6c7c4;
+    padding: 2%;
+}
+header {
+    background-color: #a2999e;
+    display: grid;
+    grid-template-columns: 130px auto;
+    margin-bottom: 0;
+    padding-right: 2%;
+}
+.headertext {
+    text-align: right;
+    margin: 2%;
+}
+header img {
+    margin-right: 30px;
+    margin: 30px 30px 2% 2%;
+    padding: 2%;
+}
+header h1 {
+    font-family: 'ZCOOL XiaoWei', serif;
+    color: #353b3c;
+}
+header h3 {
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    color: #353b3c;
+}
+nav {
+    background-color: #a2999e;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    color: #846a6a;
+    border: none;
+    width: 45px;
+    height: 45px;
+    font-size: 1.5rem;
+}
+nav ul {
+    list-style: none;
+}
+nav a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+    padding: .5rem .57rem;
+    border-top: 1px solid rgba(0,0,0,0.3);
+    color: #eef0f2;
+}
+nav ul.hide {
+    display: none;
+}
+nav a.active {
+    background-color: #846a6a;
+}
+nav a:hover {
+    background-color: #eef0f2;
+    color: #353b3c;
+}
+.banner img, .banner {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+.pagetitle {
+    color: #353b3c;
+    text-align: center;
+}
+.calltoaction {
+    color: #353b3c;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 6%;
+}
+.calltoaction p {
+    font-size: 1.5rem;
+}
+.calltoaction a:link {
+    color: #353b3c;
+}
+.calltoaction a:hover {
+    color: #846a6a;    
+}
+.templeinfo img {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+.templeinfo {
+    background-color: #846a6a;
+    padding: 2%;
+}
+.templeinfo h1 {
+    text-align: center;
+    color: #eef0f2;
+    margin: 5%;
+}
+.templeinfo p {
+    color: #eef0f2;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.contactinfo {
+    border: 1px solid #353b3c;
+    border-radius: 15px;
+    margin-top: 2%;
+    padding: 2%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.contactinfo h4 {
+    margin: 0 0 2% 0;
+    text-align: center;
+}
+.contact {
+    display: grid;
+    grid-template-columns: 40% auto 30%;
+    margin-bottom: 2%;
+}
+footer {
+    background-color: #a2999e;
+    margin-top: 2%;
+    padding: 2%;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+.clearfix:after {
+    content:"";
+    display: table;
+    clear: both;
+}
