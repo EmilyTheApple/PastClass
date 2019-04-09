@@ -35,4 +35,19 @@
         margin-left: 30px;
         margin-top: 25px;
     }
+    /* Contact Page */
+    .mainheadquarters iframe {
+        max-width: 550px;
+    }
+    .contactform input {
+        height: 45px;
+        width: 75%;
+    }
+    .contactform textarea {
+        height: 100px;
+        width: 75%;
+    }
+    .contactform button {
+        margin: 2% 5.5%;
+    }
 }

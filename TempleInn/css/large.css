@@ -1,5 +1,5 @@
 @media only screen and (min-width: 917px) {
-    nav, .pagetitle, .templeinfo h1, .contactinfo h4 {
+    nav, .templeinfo h1, .contactinfo h4 {
         text-align: left;
     }
     .templeinfo img {
@@ -13,9 +13,7 @@
     }
     .pagetitle {
         font-size: 2.5rem;
-        position: absolute;
-        top: 200px;
-        left: 65px;
+        margin-left: 2%;
     }
     nav ul {
         margin-left: 33px;
@@ -23,5 +21,27 @@
     }
     .contactinfo {
         padding-left: 33px;
+    }
+    /* Contact Page */
+    .pagetitle {
+        text-align: left;
+    }
+    .contactform input {
+        height: 30px;
+        width: 50%;
+    }
+    .contactform textarea {
+        height: 100px;
+        width: 50%;
+    }
+    .mainheadquarters {
+        text-align: left;
+    }
+    .mainheadquarters iframe {
+        margin: 2% 0 2% 0;
+        width: 80%;
+    }
+    .contactform button {
+        height: 30px;
     }
 }

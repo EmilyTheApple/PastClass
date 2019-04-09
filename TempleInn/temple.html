@@ -1,0 +1,53 @@
+<!doctype html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta name="description" content="Temple Page">
+            <meta name="author" content="Emily Patrick">
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+            <link href="css/normalize.css" rel="stylesheet">
+            <link href="css/small.css" rel="stylesheet">
+            <link href="css/medium.css" rel="stylesheet">
+            <link href="css/large.css" rel="stylesheet">
+            <title>Temple</title>
+        </head>
+        <body>
+            <header>
+                <img src="images/logo.png" alt="temple inn logo">
+                <div class="headertext">
+                    <h1>Temple Inn</h1>
+                    <h3>For your convenience</h3>
+                </div>
+            </header>
+            <nav>
+                <button onclick="toggleMenu()">&equiv;</button>
+                <ul id="primaryNav" class="hide">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="temple.html">Temple</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <main>
+                <section>
+                    <figure class="banner">
+                        <img src="images/banner.png" alt="Photo by eberhard grossgasteiger on Unsplash" sizes="100vw" srcset="images/banner.png 300w, images/banner600.png 600w, images/banner900.png 900w">
+                    </figure>
+                </section>
+                
+                <section class="contactinfo">
+                    <h4>Contact Info</h4>
+                    <div class="contact">
+                        <div class="address">Address:<br> 4800 Montgomery Ln #300,<br> Bethesda, MD 20814</div>
+                        <div class="email">Email: <br>customerservice @templeinn.org</div>
+                        <div class="phone">Phone: <br>123-456-7890</div>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                &copy; Emily Patrick 2019
+            </footer>
+            <script type="text/javascript" src="scripts/hamburger.js"></script>
+        </body>
+    </html>

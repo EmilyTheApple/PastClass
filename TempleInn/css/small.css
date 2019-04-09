@@ -10,7 +10,7 @@ html {
 }
 body {
     background-color: #c6c7c4;
-    padding: 2%;
+    padding:0 2% 0 2%;
 }
 header {
     background-color: #a2999e;
@@ -72,6 +72,7 @@ nav a:hover {
     background-color: #eef0f2;
     color: #353b3c;
 }
+
 .banner img, .banner {
     width: 100%;
     height: auto;
@@ -138,6 +139,45 @@ footer {
     padding: 2%;
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
+}
+/* contact page*/
+
+.mainheadquarters {
+    text-align: center;
+    color: #353b3c;
+    margin: 8% 2% 8% 2%;
+}
+.mainheadquarters iframe {
+    width: 96%;
+    margin: 5%;
+}
+.contactform {
+    background-color: #846a6a;
+    color: #eef0f2;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 0;
+}
+.mainheadquarters p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+footer {
+    margin-top: 0;
+}
+.contactform form fieldset {
+    padding: 5%;
+}
+.contactform input {
+    height: 45px;
+    width: 90%;
+}
+.contactform textarea {
+    height: 100px;
+    width: 90%;
+}
+.contactform button {
+    height: 45px;
+    width: 90px;
+    margin: 2% 6%;
 }
 .clearfix:after {
     content:"";
