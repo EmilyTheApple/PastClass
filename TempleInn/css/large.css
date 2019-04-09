@@ -12,12 +12,11 @@
         padding-bottom: 135px;
     }
     .pagetitle {
-        font-size: 2.5rem;
+        font-size: 2rem;
         margin-left: 2%;
     }
     nav ul {
-        margin-left: 33px;
-        padding-left: 0;
+        padding-left: 24px;
     }
     .contactinfo {
         padding-left: 33px;
@@ -43,5 +42,19 @@
     }
     .contactform button {
         height: 30px;
+    }
+    /*Reservations*/
+    .resform {
+        justify-content: space-between;
+    }
+    .resform input {
+        height: 30px;
+        width: 50%;
+    }
+    .resform textarea {
+        width: 50%;
+    }
+    .resform h2 {
+        text-align: left;
     }
 }

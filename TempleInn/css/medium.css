@@ -28,6 +28,9 @@
         display: inline-block;
         border: none;
     }
+    .pagetitle {
+        font-size: 1.75rem;
+    }
     .templeinfo p, .contactinfo, footer {
         font-size: 1.125rem;
     }
@@ -49,5 +52,13 @@
     }
     .contactform button {
         margin: 2% 5.5%;
+    }
+    /*Reservations*/
+    .resform input {
+        height: 45px;
+        width: 70%;
+    }
+    .resform textarea {
+        width: 70%;
     }
 }

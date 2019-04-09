@@ -31,11 +31,54 @@
             </nav>
             <main>
                 <section>
+                    <h1 class="pagetitle">Reservations</h1>
                     <figure class="banner">
                         <img src="images/banner.png" alt="Photo by eberhard grossgasteiger on Unsplash" sizes="100vw" srcset="images/banner.png 300w, images/banner600.png 600w, images/banner900.png 900w">
                     </figure>
                 </section>
-                
+                <section class="resform">
+                    <h2>Book Your Stay Today!</h2>
+                    <form method="get" action="requestsent.html">
+                        <fieldset>
+                            <legend>Request a Reservation</legend>
+                            
+                            <label><div>Location:</div>
+                                <input type="text" name="location" required></label>
+
+                            <label><div>Date:</div>
+                                <input type="date" name="date" size="20" required></label>
+
+                            <label><div>Type of Room:</div>
+                                <input list="roomtypes" name="roomtype" required>
+                            <datalist>
+                                <option>Single Queen</option>
+                                <option>Double Queen</option>
+                                <option>Single King</option>
+                                <option>Queen Missionary Suite</option>
+                                <option>King Missionary Suite</option>
+                                <option>Honeymoon Suite</option>
+                            </datalist></label>
+
+                            <label><div>Number of Rooms:</div>
+                                <input type="number" name="numroom" required></label>
+
+                            <label><div>Full Name:</div>
+                                <input type="text" name="fullname" required></label>
+
+                            <label><div>Email:</div>
+                                <input type="email"name="email" placeholder="email@example.com"></label>
+
+                            <label><div>Phone Number:</div>
+                                <input type="tel" name="phone" required placeholder="1112223333"></label>
+
+                            <label><div>Home State or Country (optional):</div>
+                                <input type="text" name="home"></label>
+
+                            <label><div>Special Accomodations, requests, or comments:</div>
+                                <textarea name="moreinfo" rows="5" cols="20"></textarea></label>
+                        </fieldset>
+                    </form>
+                </section>
                 <section class="contactinfo">
                     <h4>Contact Info</h4>
                     <div class="contact">

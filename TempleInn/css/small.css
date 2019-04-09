@@ -25,7 +25,7 @@ header {
 }
 header img {
     margin-right: 30px;
-    margin: 30px 30px 2% 2%;
+    margin: 30px 30px 2% 24px;
     padding: 2%;
 }
 header h1 {
@@ -145,11 +145,14 @@ footer {
 .mainheadquarters {
     text-align: center;
     color: #353b3c;
-    margin: 8% 2% 8% 2%;
+    margin: 2%;
+}
+.mainheadquarters h3 {
+    font-size: 1.5rem;
 }
 .mainheadquarters iframe {
     width: 96%;
-    margin: 5%;
+    margin: 2%;
 }
 .contactform {
     background-color: #846a6a;
@@ -178,6 +181,76 @@ footer {
     height: 45px;
     width: 90px;
     margin: 2% 6%;
+}
+/*message sent and request sent*/
+.thankyou {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2rem;
+    color: #353b3c;
+    margin-left: 2%;
+}
+/*services*/
+.services {
+    background-color: #846a6a;
+    color: #eef0f2;
+    margin: 2% 2% 0 2%;
+    padding: 1%;
+}
+.services h4 {
+    font-size: 1.25rem;
+}
+.services h3 {
+    font-size: 1.4rem;
+}
+.services p {
+   font-family: 'Source Sans Pro', sans-serif; 
+   font-size: 1.1rem;
+}
+.services li {
+    font-size: 1.2rem;
+}
+.more {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #353b3c;
+    color: #eef0f2;
+    padding: 1%;
+    margin: 0 2% 2% 2%;
+}
+.more a {
+    color: #eef0f2;
+}
+.services li {
+    margin-bottom: 5px;
+}
+/*Reservations*/
+.resform {
+    color: #353b3c;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+.resform h2 {
+    text-align: center;
+}
+.resform form {
+    width: 96%;
+}
+.resform fieldset {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.resform legend {
+    margin: 0 1rem;
+    padding: 0.4rem;
+}
+.resform div {
+    margin: 2% 0 2% 0;
+}
+.resform input {
+    height: 45px;
+    width: 90%;
+}
+.resform textarea {
+    width: 90%;
 }
 .clearfix:after {
     content:"";
