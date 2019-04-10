@@ -89,9 +89,6 @@ nav a:hover {
     font-family: 'Source Sans Pro', sans-serif;
     margin-bottom: 6%;
 }
-.calltoaction p {
-    font-size: 1.5rem;
-}
 .calltoaction a:link {
     color: #353b3c;
 }
@@ -157,8 +154,16 @@ footer {
 .contactform {
     background-color: #846a6a;
     color: #eef0f2;
+}
+.contactform h3 {
+    padding: 4% 2% 1% 7.5%;
+}
+.contactform form {
     font-family: 'Source Sans Pro', sans-serif;
-    margin-bottom: 0;
+    margin: 0 2% 0 2%;
+}
+.contactform label div {
+    margin: 2% 0 2% 0;
 }
 .mainheadquarters p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -209,6 +214,9 @@ footer {
 .services li {
     font-size: 1.2rem;
 }
+.needmore {
+    font-family: serif;
+}
 .more {
     font-family: 'Source Sans Pro', sans-serif;
     background-color: #353b3c;
@@ -251,6 +259,24 @@ footer {
 }
 .resform textarea {
     width: 90%;
+}
+/*receptions*/
+.reception img {
+    width: 96%;
+    height: auto;
+}
+.reception p {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #353b3c;
+}
+/*missionaries*/
+.missionarysuite img {
+    width: 96%;
+    height: auto;
+}
+.missionarysuite p {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #353b3c;
 }
 .clearfix:after {
     content:"";
