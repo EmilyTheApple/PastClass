@@ -1,7 +1,9 @@
-var weatherObject = new XMLHttpRequest();
-weatherObject.open('GET','/EmilyTheApple.github.io/',true)
+var templeObject = new XMLHttpRequest();
+templeObject.open('GET','/EmilyTheApple.github.io/TempleInn\JSON\temples.JSON',true)
 
-weatherObject.send();
+templeObject.send();
 
-weatherObject.onload = function() {
-    var weatherInfo = JSON.parse(weatherObject.responseText);
+templeObject.onload = function() {
+    var templeInfo = JSON.parse(templeObject.responseText);
+    console.log(templeInfo) 
+}
