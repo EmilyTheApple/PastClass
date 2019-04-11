@@ -278,6 +278,10 @@ footer {
     font-family: 'Source Sans Pro', sans-serif;
     color: #353b3c;
 }
+/*Temple*/
+.temple div {
+    display: flex;
+}
 .clearfix:after {
     content:"";
     display: table;
