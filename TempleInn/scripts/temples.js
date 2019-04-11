@@ -1,5 +1,5 @@
 var templeObject = new XMLHttpRequest();
-templeObject.open('GET','/EmilyTheApple.github.io/TempleInn\JSON\temples.JSON',true)
+templeObject.open('GET','/EmilyTheApple.github.io/TempleInn/JSON/temples.JSON',true)
 
 templeObject.send();
 
