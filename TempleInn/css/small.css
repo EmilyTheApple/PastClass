@@ -286,6 +286,7 @@ footer {
     font-family: 'Source Sans Pro', sans-serif;
     margin: 2%;
     width: 300px;
+    text-align: center;
 }  
 .temple h3 {
     margin: 0;
