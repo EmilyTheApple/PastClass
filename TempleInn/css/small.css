@@ -284,6 +284,9 @@ footer {
     flex-direction: column;
     border: 1px solid black;
 }
+.temple #mc span:not(#mcname) {
+
+}
 .temple h3 {
     margin: 0;
 }
