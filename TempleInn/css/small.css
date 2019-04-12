@@ -282,9 +282,10 @@ footer {
 .temple div {
     display: flex;
     flex-direction: column;
+    border: 1px solid black;
 }
-#name {
-    font-size: 2rem;
+.temple h3 {
+    margin: 0;
 }
 .clearfix:after {
     content:"";
