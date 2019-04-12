@@ -284,6 +284,7 @@ footer {
     flex-direction: column;
     border: 1px solid black;
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 2%;
 }  
 .temple h3 {
     margin: 0;
