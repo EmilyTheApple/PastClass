@@ -283,10 +283,8 @@ footer {
     display: flex;
     flex-direction: column;
     border: 1px solid black;
-}
-.temple #mc span:not(#mcname) {
     font-family: 'Source Sans Pro', sans-serif;
-}
+}  
 .temple h3 {
     margin: 0;
 }
