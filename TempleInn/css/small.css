@@ -283,6 +283,9 @@ footer {
     display: flex;
     flex-direction: column;
 }
+#name {
+    font-size: 2rem;
+}
 .clearfix:after {
     content:"";
     display: table;
