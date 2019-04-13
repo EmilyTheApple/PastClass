@@ -60,7 +60,7 @@ nav a {
     margin: 0;
     padding: .5rem .57rem;
     border-top: 1px solid rgba(0,0,0,0.3);
-    color: #eef0f2;
+    color: white;
 }
 nav ul.hide {
     display: none;
