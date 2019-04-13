@@ -295,11 +295,11 @@ footer {
     margin: 0 0 2% 0;
     font-family: serif;
 }
-.mc, .mny {
+.mc, .fgt {
     background-color: #846a6a;
     color: #eef0f2;
 }
-.vbc, .fgt {
+.vbc, .mny {
     background-color: #a2999e;
 }
 .clearfix:after {
