@@ -281,7 +281,7 @@ footer {
 /*Temple*/
 .temple {
    display: inline-grid;
-   grid-template-columns: 98%;
+   grid-template-columns: 100%;
 }
 .temple div {
     display: flex;
