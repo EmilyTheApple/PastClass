@@ -7,36 +7,36 @@
             "services": "Available Services: Clothing rental, Cafeteria, Patron housing, Distribution center nearby",
             "history": "Announced 3 April 1976 <br>Ground broke 25 November 1979 <br>Dedicated 2 December 1983 <br>Rededicated 16 November 2008 <br>Rededicated 13 September 2015",
             "ordinances": "Baptism <br>7:30 AM - 10:30 AM Church Groups - Appointments Only <br>10:30 AM - 3:00 PM Family Priority Time - Walk-ins and Appointments <br>3:00 PM - 9:00 PM Church Groups - Appointments Only <br>Initiatory <br>8:00 AM - 7:00 PM Walk-ins and Appointments <br>Sealing <br>8:00 AM - 8:00 PM Walk-ins and Appointments",
-            "sessions": "Sessions<br> 8:00 AM Walk-ins and Appointments <br>9:00 AM Walk-ins and Appointments <br>10:00 AM Walk-ins and Appointments <br>11:00 AM Walk-ins and Appointments <br>12:00 PM Walk-ins and Appointments <br>1:00 PM Walk-ins and Appointments <br>2:00 PM Walk-ins and Appointments <br>3:00 PM Walk-ins and Appointments <br>4:00 PM Walk-ins and Appointments <br>5:00 PM Walk-ins and Appointments <br>6:00 PM Walk-ins and Appointments <br>7:00 PM Walk-ins and Appointments",
+            "sessions": "Sessions:<br> 8:00 AM Walk-ins and Appointments <br>9:00 AM Walk-ins and Appointments <br>10:00 AM Walk-ins and Appointments <br>11:00 AM Walk-ins and Appointments <br>12:00 PM Walk-ins and Appointments <br>1:00 PM Walk-ins and Appointments <br>2:00 PM Walk-ins and Appointments <br>3:00 PM Walk-ins and Appointments <br>4:00 PM Walk-ins and Appointments <br>5:00 PM Walk-ins and Appointments <br>6:00 PM Walk-ins and Appointments <br>7:00 PM Walk-ins and Appointments",
             "closure":"Closed:<br> Monday, 24 June 2019 <br>Monday, 8 July 2019 <br>Tuesday, 24 December 2019 <br>Wednesday, 25 December 2019 <br>Tuesday, 31 December 2019 <br>Wednesday, 1 January 2020"
         },
         {
             "name": "Vancouver British Columbia",
             "address": "20370 82nd Ave Langley BC V2Y 2A9 Canada",
             "telephone": "(1) 604-513-5933",
-            "services": "Distribution center nearby",
-            "history": "25 May 2006 Announced 4 August 2007 Groundbreaking 2 May 2010 Dedicated",
-            "ordinances" :"Baptism: No scheduled times available for the baptistry. Initiatory: For initiatory information and schedule, please call the temple. Sealing: For sealing information and schedule, please call the temple.",
+            "services": "Available Services: Distribution center nearby",
+            "history": "Announced 25 May 2006<br> Ground broke 4 August 2007<br> Dedicated 2 May 2010",
+            "ordinances" :"Baptism<br> No scheduled times available for the baptistry.<br> Initiatory<br> For initiatory information and schedule, please call the temple.<br> Sealing<br> For sealing information and schedule, please call the temple.",
             "sessions":"sessions available in Korean, Mandarin, and Spanish",
-            "closure":"Monday, 15 July 2019 - Monday, 29 July 2019 Saturday, 5 October 2019 Tuesday, 24 December 2019 - Thursday, 26 December 2019"
+            "closure":"Closed:<br> Monday, 15 July 2019<br> Monday, 29 July 2019<br> Saturday, 5 October 2019<br> Tuesday, 24 December 2019<br> Thursday, 26 December 2019"
         },
         {
             "name":"Manhattan New York",
             "address":"125 Columbus Ave, Fourth Floor New York NY 10023-6514 United States",
             "telephone":"(1) 917-441-8220",
-            "services":"Clothing rental available Distribution center nearby",
-            "history":"7 August 2002 Announced 23 September 2002 Groundbreaking 13 June 2004 Dedicated",
-            "ordinances":"Baptism: No scheduled times available for the baptistry. Initiatory: For initiatory information and schedule, please call the temple. Sealing: For sealing information and schedule, please call the temple.",
+            "services":"Available Services: Clothing rental, Distribution center nearby",
+            "history":"Announced 7 August 2002<br> Ground broke 23 September 2002<br> Dedicated 13 June 2004",
+            "ordinances":"Baptism<br> No scheduled times available for the baptistry.<br> Initiatory<br> For initiatory information and schedule, please call the temple.<br> Sealing<br> For sealing information and schedule, please call the temple.",
             "sessions":"sessions available in Mandarin, Portuguese, and Spanish",
-            "closure":"Thursday, 4 July 2019 Tuesday, 23 July 2019 - Monday, 28 October 2019 Wednesday, 27 November 2019 Thursday, 28 November 2019 Tuesday, 24 December 2019 Wednesday, 25 December 2019 Tuesday, 31 December 2019"
+            "closure":"Closed:<br> Thursday, 4 July 2019<br> Tuesday, 23 July 2019<br> Monday, 28 October 2019<br> Wednesday, 27 November 2019<br> Thursday, 28 November 2019<br> Tuesday, 24 December 2019<br> Wednesday, 25 December 2019<br> Tuesday, 31 December 2019"
         },
         {
             "name":"Frankfurt Germany Temple",
             "address":"Talstrasse 10 61381 Friedrichsdorf/TS Germany",
             "telephone":"(49) 6172-59000",
-            "services":"Clothing rental available Patron housing available Distribution center nearby",
-            "history":"1 April 1981 Announced 1 July 1985 Groundbreaking 28 August 1987 Dedicated",
-            "ordinances":"Baptism: No scheduled times available for the baptistry. Initiatory: For initiatory information and schedule, please call the temple. Sealing: For sealing information and schedule, please call the temple.",
+            "services":"Available services: Clothing rental, Patron housing, Distribution center nearby",
+            "history":"Announced 1 April 1981<br> Ground broke 1 July 1985<br> Dedicated 28 August 1987",
+            "ordinances":"No ordinances available at this time.",
             "sessions":"No sessions available at this time.",
             "closure":"Temple closed during renovation"
         }
