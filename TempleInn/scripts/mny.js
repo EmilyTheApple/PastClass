@@ -7,8 +7,7 @@ manhattanWeather.onload = function() {
     var weatherInfo = JSON.parse(manhattanWeather.responseText);
     console.log(weatherInfo);
     
-    document.getElementById('currcon').innerHTML = weatherInfo.list["0"].weather["0"].main;
-    document.getElementById('currlow').innerHTML = weatherInfo.list["0"].main.temp_min;
-    document.getElementById('currhi').innerHTML = weatherInfo.list["0"].main.temp_max;
-    document.getElementById('currws').innerHTML = weatherInfo.list["0"].wind.speed;
+    document.getElementById('mnycon').innerHTML = weatherInfo.list["0"].weather["0"].main;
+    document.getElementById('mnylow').innerHTML = weatherInfo.list["0"].main.temp_min;
+    document.getElementById('mnyhi').innerHTML = weatherInfo.list["0"].main.temp_max;
 }

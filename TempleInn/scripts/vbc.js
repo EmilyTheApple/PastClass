@@ -7,8 +7,7 @@ canadaWeather.onload = function() {
     var weatherInfo = JSON.parse(canadaWeather.responseText);
     console.log(weatherInfo);
     
-    document.getElementById('currcon').innerHTML = weatherInfo.list["0"].weather["0"].main;
-    document.getElementById('currlow').innerHTML = weatherInfo.list["0"].main.temp_min;
-    document.getElementById('currhi').innerHTML = weatherInfo.list["0"].main.temp_max;
-    document.getElementById('currws').innerHTML = weatherInfo.list["0"].wind.speed;
+    document.getElementById('vbccon').innerHTML = weatherInfo.list["0"].weather["0"].main;
+    document.getElementById('vbclow').innerHTML = weatherInfo.list["0"].main.temp_min;
+    document.getElementById('vbchi').innerHTML = weatherInfo.list["0"].main.temp_max;
 }
