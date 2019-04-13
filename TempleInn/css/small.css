@@ -294,6 +294,13 @@ footer {
 .temple h3 {
     margin: 0 0 2% 0;
 }
+.mc, .mny {
+    background-color: #846a6a;
+    color: #eef0f2;
+}
+.vbc, .fgt {
+    background-color: #a2999e;
+}
 .clearfix:after {
     content:"";
     display: table;
