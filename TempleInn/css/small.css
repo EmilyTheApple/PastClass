@@ -279,6 +279,9 @@ footer {
     color: #353b3c;
 }
 /*Temple*/
+.temple {
+    
+}
 .temple div {
     display: flex;
     flex-direction: column;

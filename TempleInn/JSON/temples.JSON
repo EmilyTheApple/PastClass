@@ -12,7 +12,7 @@
         },
         {
             "name": "Vancouver British Columbia",
-            "address": "20370 82nd Ave Langley BC V2Y 2A9 Canada",
+            "address": "20370 82nd Ave<br> Langley BC V2Y 2A9<br> Canada",
             "telephone": "(1) 604-513-5933",
             "services": "Available Services: Distribution center nearby",
             "history": "Announced 25 May 2006<br> Ground broke 4 August 2007<br> Dedicated 2 May 2010",
@@ -22,7 +22,7 @@
         },
         {
             "name":"Manhattan New York",
-            "address":"125 Columbus Ave, Fourth Floor New York NY 10023-6514 United States",
+            "address":"125 Columbus Ave, Fourth Floor<br> New York NY 10023-6514<br> United States",
             "telephone":"(1) 917-441-8220",
             "services":"Available Services: Clothing rental, Distribution center nearby",
             "history":"Announced 7 August 2002<br> Ground broke 23 September 2002<br> Dedicated 13 June 2004",
@@ -32,7 +32,7 @@
         },
         {
             "name":"Frankfurt Germany Temple",
-            "address":"Talstrasse 10 61381 Friedrichsdorf/TS Germany",
+            "address":"Talstrasse 10 61381<br><br Friedrichsdorf/TS Germany",
             "telephone":"(49) 6172-59000",
             "services":"Available services: Clothing rental, Patron housing, Distribution center nearby",
             "history":"Announced 1 April 1981<br> Ground broke 1 July 1985<br> Dedicated 28 August 1987",
