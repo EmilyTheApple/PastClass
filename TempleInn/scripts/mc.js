@@ -7,7 +7,7 @@ mexicoWeather.onload = function() {
     var weatherInfo = JSON.parse(mexicoWeather.responseText);
     console.log(weatherInfo);
     
-    document.getElementById('mccon').innerHTML = weatherInfo.list[0].weather["0"].main;
+    document.getElementById('mccon').innerHTML = weatherInfo.list["0"].weather["0"].main;
     document.getElementById('mclow').innerHTML = weatherInfo.list["0"].main.temp_min;
     document.getElementById('mchi').innerHTML = weatherInfo.list["0"].main.temp_max;
 }
