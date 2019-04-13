@@ -63,6 +63,6 @@
     }
     /*Temple*/
     .temple {
-        grid-template-columns: 350px 350px;
+        grid-template-columns: 47% 47%;
     }
 }
