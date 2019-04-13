@@ -61,4 +61,8 @@
     .resform textarea {
         width: 70%;
     }
+    /*Temple*/
+    .temple {
+        grid-template-columns: 300px 300px;
+    }
 }
